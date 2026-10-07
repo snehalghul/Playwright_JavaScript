@@ -17,5 +17,6 @@ test('Blazedemo - Booking flight', async ({ page }) => {
   await page.getByPlaceholder('Credit Card Number').fill('123456789');
   await page.getByPlaceholder('John Smith').fill('John Doe');
   await page.getByRole('button', { name: 'Purchase Flight' }).click();
+  //verify that user has purchased the ticket
   await expect(page.getByRole('heading')).toContainText('Thank you for your purchase today!');
 });
