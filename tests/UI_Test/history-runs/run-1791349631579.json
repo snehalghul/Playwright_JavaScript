@@ -1,0 +1,902 @@
+{
+  "runId": "run-1791349631579",
+  "timestamp": "2026-10-07T05:07:11.579Z",
+  "tests": {
+    "[chrome] OrangeHRM_ReadCSV_Login.spec.js::OrangeHRM Login: TC1 @smoke": {
+      "testId": "[chrome] OrangeHRM_ReadCSV_Login.spec.js::OrangeHRM Login: TC1 @smoke",
+      "title": "OrangeHRM Login: TC1 @smoke",
+      "file": "OrangeHRM_ReadCSV_Login.spec.js",
+      "status": "passed",
+      "duration": 15280,
+      "retry": 0,
+      "steps": [
+        {
+          "title": "Launch browser",
+          "duration": 586,
+          "category": "pw:api"
+        },
+        {
+          "title": "Create context",
+          "duration": 61,
+          "category": "pw:api"
+        },
+        {
+          "title": "Create page",
+          "duration": 357,
+          "category": "pw:api"
+        },
+        {
+          "title": "Navigate",
+          "duration": 3278,
+          "category": "pw:api"
+        },
+        {
+          "title": "Fill \"Admin\"",
+          "duration": 1358,
+          "category": "pw:api"
+        },
+        {
+          "title": "Fill \"admin123\"",
+          "duration": 514,
+          "category": "pw:api"
+        },
+        {
+          "title": "Click",
+          "duration": 536,
+          "category": "pw:api"
+        },
+        {
+          "title": "Wait for selector",
+          "duration": 4427,
+          "category": "pw:api",
+          "isSlowest": true
+        },
+        {
+          "title": "Expect \"toHaveText\"",
+          "duration": 7,
+          "category": "expect"
+        },
+        {
+          "title": "Click",
+          "duration": 545,
+          "category": "pw:api"
+        },
+        {
+          "title": "Click",
+          "duration": 3869,
+          "category": "pw:api"
+        },
+        {
+          "title": "Close context",
+          "duration": 61,
+          "category": "pw:api"
+        }
+      ],
+      "attachments": {
+        "screenshots": [],
+        "videos": [
+          "C:\\Playwright_JS_Training\\test-results\\OrangeHRM_ReadCSV_Login-OrangeHRM-Login-TC1-smoke-chrome\\video.webm"
+        ],
+        "traces": [
+          "./traces/[chrome] OrangeHRM_ReadCSV_Login.spec.js____OrangeHRM Login__ TC1 @smoke-trace-0.zip"
+        ],
+        "custom": []
+      }
+    },
+    "[chrome] OrangeHRM_ReadCSV_Login.spec.js::OrangeHRM Login: TC2 @smoke": {
+      "testId": "[chrome] OrangeHRM_ReadCSV_Login.spec.js::OrangeHRM Login: TC2 @smoke",
+      "title": "OrangeHRM Login: TC2 @smoke",
+      "file": "OrangeHRM_ReadCSV_Login.spec.js",
+      "status": "passed",
+      "duration": 14875,
+      "retry": 0,
+      "steps": [
+        {
+          "title": "Create context",
+          "duration": 10,
+          "category": "pw:api"
+        },
+        {
+          "title": "Create page",
+          "duration": 128,
+          "category": "pw:api"
+        },
+        {
+          "title": "Navigate",
+          "duration": 3734,
+          "category": "pw:api"
+        },
+        {
+          "title": "Fill \"Admin\"",
+          "duration": 530,
+          "category": "pw:api"
+        },
+        {
+          "title": "Fill \"admin123\"",
+          "duration": 515,
+          "category": "pw:api"
+        },
+        {
+          "title": "Click",
+          "duration": 533,
+          "category": "pw:api"
+        },
+        {
+          "title": "Wait for selector",
+          "duration": 4465,
+          "category": "pw:api",
+          "isSlowest": true
+        },
+        {
+          "title": "Expect \"toHaveText\"",
+          "duration": 7,
+          "category": "expect"
+        },
+        {
+          "title": "Click",
+          "duration": 545,
+          "category": "pw:api"
+        },
+        {
+          "title": "Click",
+          "duration": 4102,
+          "category": "pw:api"
+        },
+        {
+          "title": "Close context",
+          "duration": 90,
+          "category": "pw:api"
+        }
+      ],
+      "attachments": {
+        "screenshots": [],
+        "videos": [
+          "C:\\Playwright_JS_Training\\test-results\\OrangeHRM_ReadCSV_Login-OrangeHRM-Login-TC2-smoke-chrome\\video.webm"
+        ],
+        "traces": [
+          "./traces/[chrome] OrangeHRM_ReadCSV_Login.spec.js____OrangeHRM Login__ TC2 @smoke-trace-0.zip"
+        ],
+        "custom": []
+      }
+    },
+    "[chrome] OrangeHRM_ReadCSV_Login.spec.js::OrangeHRM Login: TC3 @smoke": {
+      "testId": "[chrome] OrangeHRM_ReadCSV_Login.spec.js::OrangeHRM Login: TC3 @smoke",
+      "title": "OrangeHRM Login: TC3 @smoke",
+      "file": "OrangeHRM_ReadCSV_Login.spec.js",
+      "status": "passed",
+      "duration": 9002,
+      "retry": 0,
+      "steps": [
+        {
+          "title": "Create context",
+          "duration": 6,
+          "category": "pw:api"
+        },
+        {
+          "title": "Create page",
+          "duration": 134,
+          "category": "pw:api"
+        },
+        {
+          "title": "Navigate",
+          "duration": 3069,
+          "category": "pw:api",
+          "isSlowest": true
+        },
+        {
+          "title": "Fill \"Admin\"",
+          "duration": 534,
+          "category": "pw:api"
+        },
+        {
+          "title": "Fill \"admin123\"",
+          "duration": 514,
+          "category": "pw:api"
+        },
+        {
+          "title": "Click",
+          "duration": 537,
+          "category": "pw:api"
+        },
+        {
+          "title": "Wait for selector",
+          "duration": 1367,
+          "category": "pw:api"
+        },
+        {
+          "title": "Expect \"toHaveText\"",
+          "duration": 6,
+          "category": "expect"
+        },
+        {
+          "title": "Click",
+          "duration": 548,
+          "category": "pw:api"
+        },
+        {
+          "title": "Click",
+          "duration": 1992,
+          "category": "pw:api"
+        },
+        {
+          "title": "Close context",
+          "duration": 52,
+          "category": "pw:api"
+        }
+      ],
+      "attachments": {
+        "screenshots": [],
+        "videos": [
+          "C:\\Playwright_JS_Training\\test-results\\OrangeHRM_ReadCSV_Login-OrangeHRM-Login-TC3-smoke-chrome\\video.webm"
+        ],
+        "traces": [
+          "./traces/[chrome] OrangeHRM_ReadCSV_Login.spec.js____OrangeHRM Login__ TC3 @smoke-trace-0.zip"
+        ],
+        "custom": []
+      }
+    },
+    "[chrome] OrangeHRMAdduser.spec.js::OrangeHRM_AddUser_VerifyUser @smoke": {
+      "testId": "[chrome] OrangeHRMAdduser.spec.js::OrangeHRM_AddUser_VerifyUser @smoke",
+      "title": "OrangeHRM_AddUser_VerifyUser @smoke",
+      "file": "OrangeHRMAdduser.spec.js",
+      "status": "passed",
+      "duration": 42669,
+      "retry": 0,
+      "steps": [
+        {
+          "title": "Create context",
+          "duration": 7,
+          "category": "pw:api"
+        },
+        {
+          "title": "Create page",
+          "duration": 129,
+          "category": "pw:api"
+        },
+        {
+          "title": "Navigate",
+          "duration": 3471,
+          "category": "pw:api"
+        },
+        {
+          "title": "Fill \"Admin\"",
+          "duration": 844,
+          "category": "pw:api"
+        },
+        {
+          "title": "Fill \"admin123\"",
+          "duration": 514,
+          "category": "pw:api"
+        },
+        {
+          "title": "Click",
+          "duration": 534,
+          "category": "pw:api"
+        },
+        {
+          "title": "Expect \"toContainText\"",
+          "duration": 1825,
+          "category": "expect"
+        },
+        {
+          "title": "Click",
+          "duration": 3164,
+          "category": "pw:api"
+        },
+        {
+          "title": "Expect \"toBeVisible\"",
+          "duration": 124,
+          "category": "expect"
+        },
+        {
+          "title": "Click",
+          "duration": 547,
+          "category": "pw:api"
+        },
+        {
+          "title": "Click",
+          "duration": 1098,
+          "category": "pw:api"
+        },
+        {
+          "title": "Click",
+          "duration": 591,
+          "category": "pw:api"
+        },
+        {
+          "title": "Click",
+          "duration": 530,
+          "category": "pw:api"
+        },
+        {
+          "title": "Click",
+          "duration": 536,
+          "category": "pw:api"
+        },
+        {
+          "title": "Fill \"a\"",
+          "duration": 524,
+          "category": "pw:api"
+        },
+        {
+          "title": "Wait for timeout",
+          "duration": 5018,
+          "category": "pw:api"
+        },
+        {
+          "title": "Press \"ArrowDown\"",
+          "duration": 526,
+          "category": "pw:api"
+        },
+        {
+          "title": "Press \"Enter\"",
+          "duration": 517,
+          "category": "pw:api"
+        },
+        {
+          "title": "Wait for timeout",
+          "duration": 5016,
+          "category": "pw:api"
+        },
+        {
+          "title": "Click",
+          "duration": 529,
+          "category": "pw:api"
+        },
+        {
+          "title": "Click",
+          "duration": 531,
+          "category": "pw:api"
+        },
+        {
+          "title": "Fill \"DemoUser1791349672507\"",
+          "duration": 516,
+          "category": "pw:api"
+        },
+        {
+          "title": "Fill \"admin123\"",
+          "duration": 514,
+          "category": "pw:api"
+        },
+        {
+          "title": "Fill \"admin123\"",
+          "duration": 519,
+          "category": "pw:api"
+        },
+        {
+          "title": "Click",
+          "duration": 526,
+          "category": "pw:api"
+        },
+        {
+          "title": "Wait for timeout",
+          "duration": 6007,
+          "category": "pw:api"
+        },
+        {
+          "title": "Expect \"toContainText\"",
+          "duration": 7539,
+          "category": "expect",
+          "isSlowest": true
+        },
+        {
+          "title": "Close context",
+          "duration": 32,
+          "category": "pw:api"
+        }
+      ],
+      "attachments": {
+        "screenshots": [],
+        "videos": [
+          "C:\\Playwright_JS_Training\\test-results\\OrangeHRMAdduser-OrangeHRM-AddUser-VerifyUser-smoke-chrome\\video.webm"
+        ],
+        "traces": [
+          "./traces/[chrome] OrangeHRMAdduser.spec.js____OrangeHRM_AddUser_VerifyUser @smoke-trace-0.zip"
+        ],
+        "custom": []
+      }
+    },
+    "[chrome] WebOrder_IndiBlock_Withbrowser.spec.js::Create Order": {
+      "testId": "[chrome] WebOrder_IndiBlock_Withbrowser.spec.js::Create Order",
+      "title": "Create Order",
+      "file": "WebOrder_IndiBlock_Withbrowser.spec.js",
+      "status": "passed",
+      "duration": 8437,
+      "retry": 0,
+      "steps": [
+        {
+          "title": "Create context",
+          "duration": 10,
+          "category": "pw:api"
+        },
+        {
+          "title": "Create page",
+          "duration": 122,
+          "category": "pw:api"
+        },
+        {
+          "title": "Navigate",
+          "duration": 1620,
+          "category": "pw:api"
+        },
+        {
+          "title": "Fill \"Tester\"",
+          "duration": 531,
+          "category": "pw:api"
+        },
+        {
+          "title": "Fill \"test\"",
+          "duration": 515,
+          "category": "pw:api"
+        },
+        {
+          "title": "Click",
+          "duration": 8886,
+          "category": "pw:api",
+          "isSlowest": true
+        },
+        {
+          "title": "Expect \"toHaveURL\"",
+          "duration": 19,
+          "category": "expect"
+        },
+        {
+          "title": "Click",
+          "duration": 814,
+          "category": "pw:api"
+        },
+        {
+          "title": "Select option",
+          "duration": 529,
+          "category": "pw:api"
+        },
+        {
+          "title": "Fill \"5\"",
+          "duration": 516,
+          "category": "pw:api"
+        },
+        {
+          "title": "Fill \"Dixit428.61946529844266\"",
+          "duration": 529,
+          "category": "pw:api"
+        },
+        {
+          "title": "Fill \"BTM\"",
+          "duration": 515,
+          "category": "pw:api"
+        },
+        {
+          "title": "Fill \"Bangalore\"",
+          "duration": 516,
+          "category": "pw:api"
+        },
+        {
+          "title": "Click",
+          "duration": 530,
+          "category": "pw:api"
+        },
+        {
+          "title": "Fill \"560076\"",
+          "duration": 514,
+          "category": "pw:api"
+        },
+        {
+          "title": "Check",
+          "duration": 531,
+          "category": "pw:api"
+        },
+        {
+          "title": "Click",
+          "duration": 530,
+          "category": "pw:api"
+        },
+        {
+          "title": "Fill \"1234567891\"",
+          "duration": 515,
+          "category": "pw:api"
+        },
+        {
+          "title": "Fill \"12/23\"",
+          "duration": 515,
+          "category": "pw:api"
+        },
+        {
+          "title": "Click",
+          "duration": 545,
+          "category": "pw:api"
+        },
+        {
+          "title": "Expect \"toContainText\"",
+          "duration": 15,
+          "category": "expect"
+        },
+        {
+          "title": "Click",
+          "duration": 1297,
+          "category": "pw:api"
+        },
+        {
+          "title": "Expect \"toHaveText\"",
+          "duration": 14,
+          "category": "expect"
+        }
+      ],
+      "attachments": {
+        "screenshots": [],
+        "videos": [],
+        "traces": [
+          "./traces/[chrome] WebOrder_IndiBlock_Withbrowser.spec.js____Create Order-trace-0.zip"
+        ],
+        "custom": []
+      }
+    },
+    "[chrome] WebOrder_IndiBlock_Withbrowser.spec.js::Update Order": {
+      "testId": "[chrome] WebOrder_IndiBlock_Withbrowser.spec.js::Update Order",
+      "title": "Update Order",
+      "file": "WebOrder_IndiBlock_Withbrowser.spec.js",
+      "status": "passed",
+      "duration": 3935,
+      "retry": 0,
+      "steps": [
+        {
+          "title": "Click",
+          "duration": 1768,
+          "category": "pw:api",
+          "isSlowest": true
+        },
+        {
+          "title": "Clear",
+          "duration": 531,
+          "category": "pw:api"
+        },
+        {
+          "title": "Fill \"Delhi\"",
+          "duration": 514,
+          "category": "pw:api"
+        },
+        {
+          "title": "Click",
+          "duration": 539,
+          "category": "pw:api"
+        },
+        {
+          "title": "Expect \"toHaveText\"",
+          "duration": 543,
+          "category": "expect"
+        }
+      ],
+      "attachments": {
+        "screenshots": [],
+        "videos": [],
+        "traces": [
+          "./traces/[chrome] WebOrder_IndiBlock_Withbrowser.spec.js____Update Order-trace-0.zip"
+        ],
+        "custom": []
+      }
+    },
+    "[chrome] WebOrder_IndiBlock_Withbrowser.spec.js::Delete Order": {
+      "testId": "[chrome] WebOrder_IndiBlock_Withbrowser.spec.js::Delete Order",
+      "title": "Delete Order",
+      "file": "WebOrder_IndiBlock_Withbrowser.spec.js",
+      "status": "passed",
+      "duration": 2161,
+      "retry": 0,
+      "steps": [
+        {
+          "title": "Click",
+          "duration": 522,
+          "category": "pw:api"
+        },
+        {
+          "title": "Click",
+          "duration": 1594,
+          "category": "pw:api",
+          "isSlowest": true
+        },
+        {
+          "title": "Expect \"not toContainText\"",
+          "duration": 16,
+          "category": "expect"
+        },
+        {
+          "title": "Click",
+          "duration": 526,
+          "category": "pw:api"
+        }
+      ],
+      "attachments": {
+        "screenshots": [],
+        "videos": [],
+        "traces": [
+          "./traces/[chrome] WebOrder_IndiBlock_Withbrowser.spec.js____Delete Order-trace-0.zip"
+        ],
+        "custom": []
+      }
+    },
+    "[chrome] WebOrder_IndividualFunctions.spec.js::Login To WebOrder @smoke": {
+      "testId": "[chrome] WebOrder_IndividualFunctions.spec.js::Login To WebOrder @smoke",
+      "title": "Login To WebOrder @smoke",
+      "file": "WebOrder_IndividualFunctions.spec.js",
+      "status": "passed",
+      "duration": 6729,
+      "retry": 0,
+      "steps": [
+        {
+          "title": "Create context",
+          "duration": 6,
+          "category": "pw:api"
+        },
+        {
+          "title": "Create page",
+          "duration": 94,
+          "category": "pw:api"
+        },
+        {
+          "title": "Navigate",
+          "duration": 1744,
+          "category": "pw:api"
+        },
+        {
+          "title": "Fill \"Tester\"",
+          "duration": 525,
+          "category": "pw:api"
+        },
+        {
+          "title": "Fill \"test\"",
+          "duration": 516,
+          "category": "pw:api"
+        },
+        {
+          "title": "Click",
+          "duration": 3619,
+          "category": "pw:api",
+          "isSlowest": true
+        },
+        {
+          "title": "Expect \"toHaveURL\"",
+          "duration": 16,
+          "category": "expect"
+        },
+        {
+          "title": "Close context",
+          "duration": 35,
+          "category": "pw:api"
+        }
+      ],
+      "attachments": {
+        "screenshots": [],
+        "videos": [
+          "C:\\Playwright_JS_Training\\test-results\\WebOrder_IndividualFunctions-Login-To-WebOrder-smoke-chrome\\video.webm"
+        ],
+        "traces": [
+          "./traces/[chrome] WebOrder_IndividualFunctions.spec.js____Login To WebOrder @smoke-trace-0.zip"
+        ],
+        "custom": []
+      }
+    },
+    "[chrome] WebOrder_IndividualFunctions.spec.js::Delete Order - Verify Order @smoke @e2e": {
+      "testId": "[chrome] WebOrder_IndividualFunctions.spec.js::Delete Order - Verify Order @smoke @e2e",
+      "title": "Delete Order - Verify Order @smoke @e2e",
+      "file": "WebOrder_IndividualFunctions.spec.js",
+      "status": "failed",
+      "duration": 1988,
+      "retry": 0,
+      "error": "ReferenceError: ExpUserName is not defined\n    at C:\\Playwright_JS_Training\\tests\\UI_Test\\WebOrder_IndividualFunctions.spec.js:62:51",
+      "steps": [
+        {
+          "title": "Create context",
+          "duration": 6,
+          "category": "pw:api"
+        },
+        {
+          "title": "Create page",
+          "duration": 110,
+          "category": "pw:api"
+        },
+        {
+          "title": "Navigate",
+          "duration": 1759,
+          "category": "pw:api",
+          "isSlowest": true
+        },
+        {
+          "title": "Close context",
+          "duration": 40,
+          "category": "pw:api"
+        }
+      ],
+      "attachments": {
+        "screenshots": [],
+        "videos": [
+          "C:\\Playwright_JS_Training\\test-results\\WebOrder_IndividualFunctio-af8c8-er---Verify-Order-smoke-e2e-chrome\\video.webm"
+        ],
+        "traces": [
+          "./traces/[chrome] WebOrder_IndividualFunctions.spec.js____Delete Order - Verify Order @smoke @e2e-trace-0.zip"
+        ],
+        "custom": [
+          {
+            "name": "error-context",
+            "contentType": "text/markdown",
+            "path": "C:\\Playwright_JS_Training\\test-results\\WebOrder_IndividualFunctio-af8c8-er---Verify-Order-smoke-e2e-chrome\\error-context.md"
+          }
+        ]
+      }
+    },
+    "[chrome] WebOrder_with_Basepage.spec.js::Create Order Unique Order- Verify Order @smoke": {
+      "testId": "[chrome] WebOrder_with_Basepage.spec.js::Create Order Unique Order- Verify Order @smoke",
+      "title": "Create Order Unique Order- Verify Order @smoke",
+      "file": "WebOrder_with_Basepage.spec.js",
+      "status": "passed",
+      "duration": 18641,
+      "retry": 0,
+      "steps": [
+        {
+          "title": "Launch browser",
+          "duration": 182,
+          "category": "pw:api"
+        },
+        {
+          "title": "Create context",
+          "duration": 57,
+          "category": "pw:api"
+        },
+        {
+          "title": "Create page",
+          "duration": 167,
+          "category": "pw:api"
+        },
+        {
+          "title": "Navigate",
+          "duration": 1750,
+          "category": "pw:api"
+        },
+        {
+          "title": "Fill \"Tester\"",
+          "duration": 528,
+          "category": "pw:api"
+        },
+        {
+          "title": "Fill \"test\"",
+          "duration": 515,
+          "category": "pw:api"
+        },
+        {
+          "title": "Click",
+          "duration": 3021,
+          "category": "pw:api",
+          "isSlowest": true
+        },
+        {
+          "title": "Wait for load state \"load\"",
+          "duration": 240,
+          "category": "pw:api"
+        },
+        {
+          "title": "Expect \"toHaveURL\"",
+          "duration": 20,
+          "category": "expect"
+        },
+        {
+          "title": "Click",
+          "duration": 949,
+          "category": "pw:api"
+        },
+        {
+          "title": "Wait for load state \"load\"",
+          "duration": 1,
+          "category": "pw:api"
+        },
+        {
+          "title": "Expect \"toBeVisible\"",
+          "duration": 17,
+          "category": "expect"
+        },
+        {
+          "title": "Select option",
+          "duration": 512,
+          "category": "pw:api"
+        },
+        {
+          "title": "Fill \"5\"",
+          "duration": 516,
+          "category": "pw:api"
+        },
+        {
+          "title": "Fill \"Dixit613\"",
+          "duration": 515,
+          "category": "pw:api"
+        },
+        {
+          "title": "Fill \"BTM\"",
+          "duration": 516,
+          "category": "pw:api"
+        },
+        {
+          "title": "Fill \"Bangalore\"",
+          "duration": 514,
+          "category": "pw:api"
+        },
+        {
+          "title": "Click",
+          "duration": 531,
+          "category": "pw:api"
+        },
+        {
+          "title": "Fill \"560076\"",
+          "duration": 515,
+          "category": "pw:api"
+        },
+        {
+          "title": "Check",
+          "duration": 531,
+          "category": "pw:api"
+        },
+        {
+          "title": "Click",
+          "duration": 530,
+          "category": "pw:api"
+        },
+        {
+          "title": "Fill \"1234567891\"",
+          "duration": 515,
+          "category": "pw:api"
+        },
+        {
+          "title": "Fill \"12/23\"",
+          "duration": 516,
+          "category": "pw:api"
+        },
+        {
+          "title": "Click",
+          "duration": 534,
+          "category": "pw:api"
+        },
+        {
+          "title": "Expect \"toContainText\"",
+          "duration": 1382,
+          "category": "expect"
+        },
+        {
+          "title": "Click",
+          "duration": 2007,
+          "category": "pw:api"
+        },
+        {
+          "title": "Expect \"toHaveText\"",
+          "duration": 14,
+          "category": "expect"
+        },
+        {
+          "title": "Click",
+          "duration": 525,
+          "category": "pw:api"
+        },
+        {
+          "title": "Wait for load state \"load\"",
+          "duration": 0,
+          "category": "pw:api"
+        },
+        {
+          "title": "Expect \"toHaveURL\"",
+          "duration": 1018,
+          "category": "expect"
+        },
+        {
+          "title": "Close context",
+          "duration": 38,
+          "category": "pw:api"
+        }
+      ],
+      "attachments": {
+        "screenshots": [],
+        "videos": [
+          "C:\\Playwright_JS_Training\\test-results\\WebOrder_with_Basepage-Cre-12925-e-Order--Verify-Order-smoke-chrome\\video.webm"
+        ],
+        "traces": [
+          "./traces/[chrome] WebOrder_with_Basepage.spec.js____Create Order Unique Order- Verify Order @smoke-trace-0.zip"
+        ],
+        "custom": []
+      }
+    }
+  }
+}

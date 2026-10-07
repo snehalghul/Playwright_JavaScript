@@ -1,0 +1,26 @@
+[
+  {
+    "test_case": "TC_001",
+    "username": "Tester",
+    "password": "test",
+    "expected_result": "Logout"
+  },
+  {
+    "test_case": "TC_002",
+    "username": "Tester",
+    "password": "wrong",
+    "expected_result": "Invalid Login or Password."
+  },
+  {
+    "test_case": "TC_003",
+    "username": "wrong",
+    "password": "test",
+    "expected_result": "Invalid Login or Password."
+  },
+  {
+    "test_case": "TC_004",
+    "username": "wrong",
+    "password": "wrong",
+    "expected_result": "Invalid Login or Password."
+  }
+]

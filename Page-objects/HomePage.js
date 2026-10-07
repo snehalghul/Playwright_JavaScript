@@ -1,0 +1,61 @@
+//import { Locator, Page } from '@playwright/test'
+import { expect, Locator,page } from '@playwright/test';
+export class HomePage {
+   page= page
+   signInButton= Locator
+   searchBox= Locator
+   linkFeedback= Locator
+   linkOnlineBanking= Locator
+   usernameDropdown=Locator
+   logoutButton=Locator
+   zeroBankLogo=Locator
+   
+  constructor(page= page) {
+    this.page = page
+    this.signInButton = page.locator('#signin_button')
+    this.searchBox = page.locator('#searchTerm')
+    this.linkFeedback = page.locator('#feedback')
+    this.linkOnlineBanking = page.locator("//strong[normalize-space()='Online Banking']")
+    this.usernameDropdown=page.getByText('username')
+    this.logoutButton=page.getByRole('link', { name: 'Logout' })
+    this.zeroBankLogo=page.locator('.brand')
+
+  }
+
+  async visit() {
+    await this.page.goto(process.env.URL_ZeroBank)
+  }
+
+  async clickOnSignIn() {
+    await this.signInButton.click()
+  }
+
+  async clickOnFeedbackLink() {
+    await this.linkFeedback.click()
+  }
+
+  async clickOnOnlineBankingLink() {
+    await this.linkOnlineBanking.click()
+  }
+
+  async searchFor(phrase = string) {
+    // type - letter by letter in the search box and press enter , fill will whole word in one go
+    await this.searchBox.type(phrase)
+    await this.page.keyboard.press('Enter')
+  }
+
+  async logout() {
+    await this.usernameDropdown.click({setTimeout:7000})
+    await this.logoutButton.click()
+}
+
+  async VerifyURL(url = string) {
+    await this.page.waitForURL(url)
+    await expect(this.page).toHaveURL(url)
+}
+  
+ async clickOnZeroBankLogo() {
+    await this.zeroBankLogo.click()
+  }
+
+}

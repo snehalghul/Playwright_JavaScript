@@ -1,0 +1,127 @@
+{
+  "runs": [
+    {
+      "runId": "run-1791349631579",
+      "timestamp": "2026-10-07T05:07:11.579Z"
+    }
+  ],
+  "tests": {
+    "[chrome] OrangeHRM_ReadCSV_Login.spec.js::OrangeHRM Login: TC1 @smoke": [
+      {
+        "passed": true,
+        "duration": 15280,
+        "timestamp": "2026-10-07T05:09:31.244Z",
+        "runId": "run-1791349631579",
+        "skipped": false,
+        "retry": 0
+      }
+    ],
+    "[chrome] OrangeHRM_ReadCSV_Login.spec.js::OrangeHRM Login: TC2 @smoke": [
+      {
+        "passed": true,
+        "duration": 14875,
+        "timestamp": "2026-10-07T05:09:31.244Z",
+        "runId": "run-1791349631579",
+        "skipped": false,
+        "retry": 0
+      }
+    ],
+    "[chrome] OrangeHRM_ReadCSV_Login.spec.js::OrangeHRM Login: TC3 @smoke": [
+      {
+        "passed": true,
+        "duration": 9002,
+        "timestamp": "2026-10-07T05:09:31.244Z",
+        "runId": "run-1791349631579",
+        "skipped": false,
+        "retry": 0
+      }
+    ],
+    "[chrome] OrangeHRMAdduser.spec.js::OrangeHRM_AddUser_VerifyUser @smoke": [
+      {
+        "passed": true,
+        "duration": 42669,
+        "timestamp": "2026-10-07T05:09:31.244Z",
+        "runId": "run-1791349631579",
+        "skipped": false,
+        "retry": 0
+      }
+    ],
+    "[chrome] WebOrder_IndiBlock_Withbrowser.spec.js::Create Order": [
+      {
+        "passed": true,
+        "duration": 8437,
+        "timestamp": "2026-10-07T05:09:31.244Z",
+        "runId": "run-1791349631579",
+        "skipped": false,
+        "retry": 0
+      }
+    ],
+    "[chrome] WebOrder_IndiBlock_Withbrowser.spec.js::Update Order": [
+      {
+        "passed": true,
+        "duration": 3935,
+        "timestamp": "2026-10-07T05:09:31.244Z",
+        "runId": "run-1791349631579",
+        "skipped": false,
+        "retry": 0
+      }
+    ],
+    "[chrome] WebOrder_IndiBlock_Withbrowser.spec.js::Delete Order": [
+      {
+        "passed": true,
+        "duration": 2161,
+        "timestamp": "2026-10-07T05:09:31.244Z",
+        "runId": "run-1791349631579",
+        "skipped": false,
+        "retry": 0
+      }
+    ],
+    "[chrome] WebOrder_IndividualFunctions.spec.js::Login To WebOrder @smoke": [
+      {
+        "passed": true,
+        "duration": 6729,
+        "timestamp": "2026-10-07T05:09:31.244Z",
+        "runId": "run-1791349631579",
+        "skipped": false,
+        "retry": 0
+      }
+    ],
+    "[chrome] WebOrder_IndividualFunctions.spec.js::Delete Order - Verify Order @smoke @e2e": [
+      {
+        "passed": false,
+        "duration": 1988,
+        "timestamp": "2026-10-07T05:09:31.244Z",
+        "runId": "run-1791349631579",
+        "skipped": false,
+        "retry": 0
+      }
+    ],
+    "[chrome] WebOrder_with_Basepage.spec.js::Create Order Unique Order- Verify Order @smoke": [
+      {
+        "passed": true,
+        "duration": 18641,
+        "timestamp": "2026-10-07T05:09:31.244Z",
+        "runId": "run-1791349631579",
+        "skipped": false,
+        "retry": 0
+      }
+    ]
+  },
+  "summaries": [
+    {
+      "runId": "run-1791349631579",
+      "timestamp": "2026-10-07T05:07:11.579Z",
+      "total": 10,
+      "passed": 9,
+      "failed": 1,
+      "skipped": 0,
+      "flaky": 0,
+      "slow": 0,
+      "duration": 139665,
+      "passRate": 90
+    }
+  ],
+  "runFiles": {
+    "run-1791349631579": "./history-runs/run-1791349631579.json"
+  }
+}
