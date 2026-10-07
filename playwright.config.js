@@ -58,7 +58,7 @@ export default defineConfig({
     screenshot: 'on',
     video: 'on',
     ignoreHTTPSErrors: true,
-    headless: false,
+    headless: true,
      permissions: [
       'geolocation',
       'notifications'
