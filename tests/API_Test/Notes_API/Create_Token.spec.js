@@ -19,7 +19,7 @@ test.describe('Create Token - API Testing @smoke', () => {
     expect(response.status()).toBe(200)
     expect(responseBody.message).toBe('Login successful')
     expect(responseBody.data.token).toBeTruthy()
-    expect(responseBody.data.email).toBe('testing@abc.com')
+    expect(responseBody.data.email).toBe('snehal@asd.com')
     const token = responseBody.data.token
     console.log(token)
     

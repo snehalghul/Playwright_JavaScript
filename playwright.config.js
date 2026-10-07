@@ -14,11 +14,7 @@ import { defineConfig, devices } from '@playwright/test';
  * @see https://playwright.dev/docs/test-configuration
  */
 export default defineConfig({
-  //testDir: './tests',
-  testDir: './tests/UI_Test',
- // testDir: './tests/UI_SpecialControl',
- // testDir: './tests/ZeroBank_Test_PageObject',
-  //testDir: './tests/API_Test/Notes_API',
+  testDir: './tests',
   /* Run tests in files in parallel */
   fullyParallel: true,
   workers: 1,
@@ -29,8 +25,8 @@ export default defineConfig({
   /* Opt out of parallel tests on CI. */
   //workers: process.env.CI ? 1 : undefined,
   /* Reporter to use. See https://playwright.dev/docs/test-reporters */
- // reporter: 'html',
-  reporter: [
+  reporter: 'html',
+ /* reporter: [
     ['playwright-smart-reporter', {
       outputFile: '../TestReport/smokeReport.html',
       historyFile: 'test-history.json',
@@ -51,7 +47,7 @@ export default defineConfig({
       retryFailureThreshold: 3,
       baselineRunId: 'main-branch-baseline', // optional
     }],
-  ],
+  ],*/
   /* Shared settings for all the projects below. See https://playwright.dev/docs/api/class-testoptions. */
   use: {
     /* Base URL to use in actions like `await page.goto('')`. */
