@@ -52,8 +52,8 @@ jobs:
 
 
       # Execute API Tests
-      - name: Run API Tests
-        run: npm run API_Test
+      - name: Run Smoke test
+        run: npm run Smoke_Test
         continue-on-error: false
 
 
