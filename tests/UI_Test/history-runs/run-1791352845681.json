@@ -1,0 +1,132 @@
+{
+  "runId": "run-1791352845681",
+  "timestamp": "2026-10-07T06:00:45.681Z",
+  "tests": {
+    "[chrome] bookFlight.spec.js::Blazedemo - Booking flight": {
+      "testId": "[chrome] bookFlight.spec.js::Blazedemo - Booking flight",
+      "title": "Blazedemo - Booking flight",
+      "file": "bookFlight.spec.js",
+      "status": "passed",
+      "duration": 12915,
+      "retry": 0,
+      "steps": [
+        {
+          "title": "Launch browser",
+          "duration": 825,
+          "category": "pw:api"
+        },
+        {
+          "title": "Create context",
+          "duration": 73,
+          "category": "pw:api"
+        },
+        {
+          "title": "Create page",
+          "duration": 257,
+          "category": "pw:api"
+        },
+        {
+          "title": "Navigate",
+          "duration": 3533,
+          "category": "pw:api",
+          "isSlowest": true
+        },
+        {
+          "title": "Select option",
+          "duration": 540,
+          "category": "pw:api"
+        },
+        {
+          "title": "Select option",
+          "duration": 523,
+          "category": "pw:api"
+        },
+        {
+          "title": "Click",
+          "duration": 1042,
+          "category": "pw:api"
+        },
+        {
+          "title": "Expect \"toBeVisible\"",
+          "duration": 20,
+          "category": "expect"
+        },
+        {
+          "title": "Click",
+          "duration": 1259,
+          "category": "pw:api"
+        },
+        {
+          "title": "Expect \"toContainText\"",
+          "duration": 18,
+          "category": "expect"
+        },
+        {
+          "title": "Fill \"John Doe\"",
+          "duration": 521,
+          "category": "pw:api"
+        },
+        {
+          "title": "Fill \"123 ABC Street\"",
+          "duration": 520,
+          "category": "pw:api"
+        },
+        {
+          "title": "Fill \"Bangalore\"",
+          "duration": 523,
+          "category": "pw:api"
+        },
+        {
+          "title": "Fill \"KA\"",
+          "duration": 523,
+          "category": "pw:api"
+        },
+        {
+          "title": "Fill \"1234567\"",
+          "duration": 524,
+          "category": "pw:api"
+        },
+        {
+          "title": "Select option",
+          "duration": 520,
+          "category": "pw:api"
+        },
+        {
+          "title": "Fill \"123456789\"",
+          "duration": 511,
+          "category": "pw:api"
+        },
+        {
+          "title": "Fill \"John Doe\"",
+          "duration": 523,
+          "category": "pw:api"
+        },
+        {
+          "title": "Click",
+          "duration": 1163,
+          "category": "pw:api"
+        },
+        {
+          "title": "Expect \"toContainText\"",
+          "duration": 15,
+          "category": "expect"
+        },
+        {
+          "title": "Close context",
+          "duration": 45,
+          "category": "pw:api"
+        }
+      ],
+      "attachments": {
+        "screenshots": [],
+        "videos": [
+          "C:\\Playwright_JS_Training\\test-results\\bookFlight-Blazedemo---Booking-flight-chrome\\video.webm"
+        ],
+        "traces": [
+          "./traces/[chrome] bookFlight.spec.js____Blazedemo - Booking flight-trace-0.zip"
+        ],
+        "custom": []
+      }
+    }
+  }
+}

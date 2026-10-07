@@ -3,6 +3,10 @@
     {
       "runId": "run-1791349631579",
       "timestamp": "2026-10-07T05:07:11.579Z"
+    },
+    {
+      "runId": "run-1791352845681",
+      "timestamp": "2026-10-07T06:00:45.681Z"
     }
   ],
   "tests": {
@@ -105,6 +109,16 @@
         "skipped": false,
         "retry": 0
       }
+    ],
+    "[chrome] bookFlight.spec.js::Blazedemo - Booking flight": [
+      {
+        "passed": true,
+        "duration": 12915,
+        "timestamp": "2026-10-07T06:01:00.361Z",
+        "runId": "run-1791352845681",
+        "skipped": false,
+        "retry": 0
+      }
     ]
   },
   "summaries": [
@@ -119,9 +133,22 @@
       "slow": 0,
       "duration": 139665,
       "passRate": 90
+    },
+    {
+      "runId": "run-1791352845681",
+      "timestamp": "2026-10-07T06:00:45.681Z",
+      "total": 1,
+      "passed": 1,
+      "failed": 0,
+      "skipped": 0,
+      "flaky": 0,
+      "slow": 0,
+      "duration": 14680,
+      "passRate": 100
     }
   ],
   "runFiles": {
-    "run-1791349631579": "./history-runs/run-1791349631579.json"
+    "run-1791349631579": "./history-runs/run-1791349631579.json",
+    "run-1791352845681": "./history-runs/run-1791352845681.json"
   }
 }
